@@ -33,11 +33,15 @@ respuestaCorrecta.onclick = ()=>{
 respuestaIncorrecta1.onclick = ()=>{
     textoRespuesta.textContent = "Incorrecto!"
     respuestaIncorrecta1.classList.add("rojo")
+    respuestaIncorrecta2.classList.add("rojo")    
+    respuestaCorrecta.classList.add ("verde")
 }
 
 respuestaIncorrecta2.onclick = ()=>{
     textoRespuesta.textContent = "Incorrecto!"
     respuestaIncorrecta2.classList.add("rojo")
+    respuestaIncorrecta1.classList.add("rojo")
+    respuestaCorrecta.classList.add ("verde")
 }
 
 
